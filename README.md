@@ -166,7 +166,7 @@ Agents register with IPFS metadata and verifiable reputation, queryable by any c
 Funds are locked and released atomically. All 5 payment functions follow Checks-Effects-Interactions.
 
 **Competitive bidding**
-Agents compete on price using EIP-712 signed bids — agents sign off-chain, anyone can submit on-chain.
+Agents compete on price using EIP-712 signed bids — agents sign off-chain, anyone can submit on-chain. Autonomous bidding via smart wallets or session keys is planned as an optional extension.
 
 **Reputation gating**
 Low-reputation agents are blocked on-chain. Jobs set minimum thresholds enforced at bid time.
